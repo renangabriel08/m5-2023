@@ -138,25 +138,6 @@ class _MapaState extends State<Mapa> {
                                   onPressed: () {},
                                   style: ElevatedButton.styleFrom(
                                     fixedSize: Size(width, height * .06),
-                                    backgroundColor: Cores.azulClaro,
-                                  ),
-                                  icon: Icon(
-                                    Icons.send,
-                                    color: Cores.azulEscuro,
-                                  ),
-                                  label: Text(
-                                    'Iniciar Viagem',
-                                    style: TextStyle(
-                                      color: Cores.azulEscuro,
-                                      fontFamily: Fonts.fonte,
-                                      fontSize: 20,
-                                    ),
-                                  ),
-                                )
-                              : ElevatedButton.icon(
-                                  onPressed: () {},
-                                  style: ElevatedButton.styleFrom(
-                                    fixedSize: Size(width, height * .06),
                                     backgroundColor: Colors.grey,
                                   ),
                                   icon: const Icon(
@@ -167,6 +148,25 @@ class _MapaState extends State<Mapa> {
                                     'Iniciar Viagem',
                                     style: TextStyle(
                                       color: Colors.white,
+                                      fontFamily: Fonts.fonte,
+                                      fontSize: 20,
+                                    ),
+                                  ),
+                                )
+                              : ElevatedButton.icon(
+                                  onPressed: () {},
+                                  style: ElevatedButton.styleFrom(
+                                    fixedSize: Size(width, height * .06),
+                                    backgroundColor: Cores.azulClaro,
+                                  ),
+                                  icon: Icon(
+                                    Icons.send,
+                                    color: Cores.azulEscuro,
+                                  ),
+                                  label: Text(
+                                    'Iniciar Viagem',
+                                    style: TextStyle(
+                                      color: Cores.azulEscuro,
                                       fontFamily: Fonts.fonte,
                                       fontSize: 20,
                                     ),
